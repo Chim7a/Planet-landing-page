@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Hanunoo&family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: rgba(7, 6, 37, 255);
+  color: whitesmoke;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Noto Sans Hanunoo", sans-serif;
+}
+
+p,
+a,
+li,
+span {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Header styling */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  border-bottom: 0.2px solid white;
+}
+
+nav h2 {
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+nav .menu {
+  display: none;
+}
+
+nav a {
+  letter-spacing: 0.3rem;
+}
+
+@media screen and (min-width: 838px) {
+  nav .menu {
+    display: flex;
+    font-size: 0.8rem;
+    gap: 1.5rem;
+    font-weight: 100;
+  }
+}
