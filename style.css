@@ -70,3 +70,59 @@ nav a {
     font-weight: 100;
   }
 }
+
+/* Hero section styling */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin: 3rem auto;
+  align-items: center;
+  max-width: 500px;
+}
+
+.hero p {
+  color: rgb(211, 211, 211);
+}
+
+.src-text {
+  color: gray;
+}
+
+.wiki-text {
+  color: rgb(211, 211, 211);
+  text-decoration: underline;
+  margin-inline: 0.5rem;
+}
+
+.hero-container {
+  /* max-width: 500px; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.earth-tags li {
+  border: 1px solid white;
+  display: flex;
+  gap: 1.5rem;
+  letter-spacing: 0.8;
+  padding: 1rem;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+.earth-tags li:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+  border: blueviolet;
+}
+
+@media screen and (min-width: 838px) {
+  .hero {
+    flex-direction: row;
+    gap: 5rem;
+    max-width: 1000px;
+  }
+}
