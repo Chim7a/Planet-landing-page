@@ -97,7 +97,6 @@ nav a {
 }
 
 .hero-container {
-  /* max-width: 500px; */
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -125,4 +124,32 @@ nav a {
     gap: 5rem;
     max-width: 1000px;
   }
+}
+
+/* EARTH METRICS STYLING */
+
+#earth-metrics {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.metric-cards {
+  border: 1px solid rgb(159, 159, 159);
+  padding: 1rem;
+  width: 100%;
+  max-width: 225px;
+}
+
+.metric-cards p {
+  color: rgb(159, 159, 159);
+  letter-spacing: 0.08rem;
+}
+
+.metric-cards h3 {
+  color: white;
+  font-size: 2rem;
 }
